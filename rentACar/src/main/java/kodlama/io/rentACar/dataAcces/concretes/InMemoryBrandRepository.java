@@ -1,3 +1,4 @@
+/*
 package kodlama.io.rentACar.dataAcces.concretes;
 
 import kodlama.io.rentACar.Entities.concretes.Brand;
@@ -23,4 +24,4 @@ public class InMemoryBrandRepository implements BrandRepository {
     public List<Brand> getAll() {
         return brands;
     }
-}
+}*/
