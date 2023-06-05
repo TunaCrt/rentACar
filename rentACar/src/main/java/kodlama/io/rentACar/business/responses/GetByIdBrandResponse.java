@@ -7,12 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GetAllBrandsResponse {//request apiye gönderilen data response ise bizim ona verdiğimiz yanıt
+public class GetByIdBrandResponse {
     private int id;
     private  String isim;
 }
-/*
-  Brand --> id,name,quantity
-  GetAllBrandsResponse--> id,name
-  buna maping denir
- */

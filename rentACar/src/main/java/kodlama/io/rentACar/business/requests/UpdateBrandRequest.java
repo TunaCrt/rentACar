@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CrateBrandRequest {
+public class UpdateBrandRequest {
+    private int id;
     private String isim;
 }
